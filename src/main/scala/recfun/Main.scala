@@ -57,8 +57,6 @@ object Main {
       }
     }
 
-//    if(countBalanced(chars,0) == (countParen(chars,0).toFloat /2 )) true
-//    else false
       countBalanced(chars,0) == (countParen(chars,0).toFloat /2)
   }
 
